@@ -6,7 +6,6 @@ import TruncateText from "../TruncateText/TruncateText";
 const Cart = () => {
   let { productsAddedInTheCart } = useStore();
 
-  console.log("I am from cart.jsx...", productsAddedInTheCart)
   return (
     <div className="row g-4">
       {productsAddedInTheCart.length > 0 &&
